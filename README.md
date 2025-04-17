@@ -17,4 +17,3 @@ ministatement
 check bank balance
 <br>
 change account pin
-![Screenshot 2025-04-17 230252](https://github.com/user-attachments/assets/f5daf1b7-89d5-4c91-9914-c25291136e04)
