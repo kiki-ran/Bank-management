@@ -1,0 +1,108 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url('../images/bank-bg.jpg'); /* Path to your background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-top: 80px; /* For navbar spacing */
+}
+
+/* Form container */
+.container {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    width: 350px;
+}
+
+/* Headings */
+h2 {
+    color: #0d47a1;
+}
+
+/* Inputs and selects */
+input[type="text"],
+input[type="password"],
+input[type="number"],
+select {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #90caf9;
+    border-radius: 8px;
+    outline: none;
+}
+
+/* Buttons */
+button {
+    padding: 10px 25px;
+    border: none;
+    border-radius: 10px;
+    background-color: #1976d2;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #1565c0;
+}
+
+/* Links */
+a {
+    display: block;
+    margin: 10px 0;
+    text-decoration: none;
+    color: #1976d2;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #0d47a1;
+}
+
+/* Optional navbar (for other pages if used) */
+.navbar {
+    background-color: #0d47a1;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+}
+
+.navbar .brand {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar .links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: 500;
+}
+
+.navbar .links a:hover {
+    text-decoration: underline;
+}
+
+.navbar .welcome {
+    font-style: italic;
+    font-size: 14px;
+}
