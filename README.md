@@ -1,6 +1,6 @@
 # Bank-management
 <br>
-Hey!people. This is a baasic bank management system created for college project.
+Hey coders!!! This is a basic bank management system created for college project.
 <br>
 It includes a frontend, backend and database connectivity. We have used php and xampp with phpmyadmin in creating this project with features that include:
 <br>
